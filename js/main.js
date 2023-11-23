@@ -24,7 +24,7 @@ if (!isNaN(arrLength) && arrLength > 0) {
         newArr[i] = arrItem;
     }
 } else {
-    console.log('Должно быть положительное число(Больше нуля)');
+    console.log('Должно быть число(Больше нуля)');
 }
 
 newArr.sort((a, b) => a - b);
