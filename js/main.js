@@ -27,5 +27,8 @@ if (!isNaN(arrLength) && arrLength > 0) {
     console.log('Должно быть положительное число(Больше нуля)');
 }
 
+newArr.sort((a, b) => a - b);
 
-console.log(newArr);
+newArr.splice(1, 4);
+    
+document.write('<b>' + newArr + '</b>');
